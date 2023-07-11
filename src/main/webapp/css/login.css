@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.box{
+	position:relative;
+	width: 500px;	height: 1000px;
+	margin:0 auto;
+}
+.box>p{
+	text-align:center; line-height:120px;
+	height:120px;	width: inherit;	
+	text-decoration: underline;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size:40px;
+	font-weight: bold;
+}
+.box>ul{
+	margin:0 auto;
+	width: 400px;
+	height: auto;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:16px;
+}
+.box>ul:nth-of-type(1) {
+	height: 50px;	line-height: 50px;
+	color:#BDBDBD;
+}
+.box>ul:nth-of-type(2){
+	height: 154px;
+}
+.box>ul:nth-of-type(2)>li>input[type=text],.box>ul:nth-of-type(2)>li>input[type=password]{
+	width: 400px;	height:48px;
+	box-sizing: border-box;
+	border:1px solid #BDBDBD;
+	border-radius: 4px;
+	margin-bottom:5px;
+	text-indent: 10px;
+}
+.box>ul:nth-of-type(2)>li>input[type=button]{
+	width: 400px;	height:48px;
+	box-sizing: border-box;		border-radius: 4px;
+	background-color: #4F84F5;	color:white;
+}
+.box>ul:nth-of-type(3){
+	height: 48px;	line-height: 48px;	color:#BDBDBD;
+}
+.box>ul:nth-of-type(3)>li{
+	float: left;	height: 48px;	width: 20px;
+	text-align: center;
+}
+.box>ul:nth-of-type(3)>li:nth-of-type(odd){
+	width:120px;	cursor: pointer;
+}
+.box>ul:nth-of-type(4){
+	height: 48px;	text-align: center;
+	color:#000000;	line-height: 48px;
+}
+.box>ul:nth-of-type(4)>li{
+	float: left;	text-align: center;
+	margin:0 2px 0 2px;
+}
+.box>ul:nth-of-type(4)>li:nth-of-type(odd){
+	width:150px;	font-weight: 600;
+}
+.box>ul:nth-of-type(5){
+	height: 80px;	line-height: 80px;
+
+}
+.box>ul:nth-of-type(5)>li{
+	float:left;		box-sizing:border-box;
+	width: 80px;	height: 80px;
+	margin-right:20px;	line-height:80px;
+	border:1px solid  #BDBDBD;	border-radius: 80px;
+	cursor:pointer;
+}
+.box>ul:nth-of-type(5)>li:nth-last-of-type(1){
+	margin-right:0;		
+}
+.box>ul:nth-of-type(5)>li>img{
+	width: 40px;	height: 40px;
+	position: relative;
+	top: 12px; left: 20px;
+}
+.box>ul:last-of-type{
+	height: 48px;	line-height: 48px;
+	margin-top:20px;
+}
+
+.box>ul:last-of-type>li>input[type=button]{
+	border:1px solid #4F84F5;
+	border-radius: 4px;	box-sizing: border-box;
+	width: 400px;	height: 48px;
+	background-color: white; color:#4F84F5;
+}

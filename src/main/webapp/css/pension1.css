@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.box{
+	position:relative;
+	width: 1200px;	height: 1000px;
+	margin:0 auto;
+}
+
+.help_1{
+	margin-top:60px;	font-size:14px;	color:#BDBDBD;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.help_1>li{
+	text-align: center;
+}
+.box>p{
+	text-align:center; line-height:120px;
+	height:120px;	width: inherit;	
+	text-decoration: underline;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size:40px;
+	font-weight: bold;
+}

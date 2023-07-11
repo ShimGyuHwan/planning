@@ -1,0 +1,117 @@
+@charset "UTF-8";
+section{
+	width: 1200px;	height: 800px;
+	margin:0 auto;
+}
+.box>p{
+	text-align:center; line-height:120px;
+	height:120px;	width: inherit;	
+	text-decoration: underline;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-size:40px;
+	font-weight: bold;	margin-bottom:60px;
+}
+
+.mou{
+	margin:0 auto;	left:50%;	margin-left:-400px;		margin-bottom:60px;	
+	width: 800px;	float: left;
+	height: 140px;	position: relative;	box-sizing: border-box; 	
+}
+.mou>li{
+	width: 200px;	height: 70px;	border:1px solid #666666;
+	text-align:center;
+	box-sizing: border-box;		float: left;	border-right:0;
+	line-height: 70px;	cursor:pointer;
+}
+.mou>li:nth-of-type(5),.mou>li:nth-of-type(6),.mou>li:nth-of-type(7),.mou>li:nth-of-type(8){
+	border-top:0;
+}
+.mou>li:nth-of-type(4),.mou>li:nth-of-type(8){
+	border-right:1px solid #666666;
+}
+.mou>li>span{
+	width: 30px;	height: 30px;	border:1px solid #666666;
+	box-sizing: border-box;	position: relative;	
+	float: right;	left: -30px;	margin-top:17px;
+}
+.mou>li>span>img{
+	width: 15px;	height: 15px;	position: relative;	top: -18px;
+}
+
+.help_2{
+	clear:both;	font-size:14px;	color:#BDBDBD;
+	font-family: 'Noto Sans KR', sans-serif;	padding:20px;
+}
+.help_2>li{
+	text-align: center;
+}
+
+
+
+.olcs{
+	width:800px;	height:70px;	background-color:#666666;
+	color:#000000;	border:1px solid #666666;
+	border-top:0;	box-sizing: border-box; 	margin:0 auto;
+	cursor: default;	position : relative; top:-1px;
+	display : none;
+	
+	
+}
+.olcs>li{
+	position: relative;	margin-top:15px;	margin-right:20px;
+	float: left;	background-color:#ffffff;
+	width: 100px;	height: 40px;	line-height:40px;
+	border:1px solid #000000;	box-sizing: border-box; 
+	border-radius: 20px;	cursor:pointer;
+}
+
+#aa1{
+	position:relative;	left:-200px;
+}
+#aa2{
+	position:relative;	left:-400px;
+}
+#aa3{
+	position:relative;	left:-600px;
+}
+#aa4{
+	position:relative;	
+}
+#aa5{
+	position:relative;	left:-200px;	
+}
+#aa6{
+	position:relative;	left:-400px;	
+}
+#aa7{
+	position:relative;	left:-600px;	
+}
+.seldate{
+	width: 610px;	height:160px; 	margin:0 auto;
+}
+.seldate>li{
+	width: 300px;	height: 30px;	float: left;
+}
+.seldate>li:nth-of-type(1){
+	margin-right: 10px;
+}
+.seldate>li>u{
+	display:block;
+	text-decoration: none;
+	width: 100px;	height: inherit;
+	text-align: center;	line-height: 30px;	float: left;
+}
+.seldate>li>input[type=date]{
+	width: 200px;	height: 30px;	box-sizing: border-box;
+}
+.selarea{
+	width: 250px;	height: 70px;
+	margin:0 auto;
+}
+.selarea>li>input[type=button]{
+	width: 250px;	height: 70px;
+	background-color: #1e1f21;	color:#ffffff;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:20px;	font-weight: 300;
+}
+
